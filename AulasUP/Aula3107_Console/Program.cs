@@ -15,7 +15,7 @@ namespace Aula3107_Console
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Meu mouse é uma bosta\n");
+            Console.WriteLine("CRF\n");
             Console.ReadKey();
 
 

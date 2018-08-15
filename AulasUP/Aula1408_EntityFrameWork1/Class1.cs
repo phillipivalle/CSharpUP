@@ -22,7 +22,7 @@ namespace Aula1408_EntityFrameWork1
 
     ##### Instalando Entity FrameWork
 
-
+        Criando base (Abordagem : modelFirst)
 
 
     */

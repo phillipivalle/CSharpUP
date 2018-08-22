@@ -18,7 +18,7 @@ namespace Aula1608_EFDatabaseFirst.Controllers
         List<Person> ListarTodosPerson()
         {
             AdventureWorks2016Entities contexto = new AdventureWorks2016Entities();
-            return contexto.Person.ToList();
+            return contexto.Person.ToList();    
         }
 
         Person BuscarPorID(int ID)

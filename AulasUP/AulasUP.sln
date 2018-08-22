@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula1408_EntityFrameWork1",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula1608_EFDatabaseFirst", "Aula1608_EFDatabaseFirst\Aula1608_EFDatabaseFirst.csproj", "{D6950ADD-965E-44E1-9F48-3576AD08B061}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula2108_CodeFirst", "Aula2108_CodeFirst\Aula2108_CodeFirst.csproj", "{4E16E42B-F2D3-4B0B-88F4-6B5F3F8251BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D6950ADD-965E-44E1-9F48-3576AD08B061}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6950ADD-965E-44E1-9F48-3576AD08B061}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6950ADD-965E-44E1-9F48-3576AD08B061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E16E42B-F2D3-4B0B-88F4-6B5F3F8251BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E16E42B-F2D3-4B0B-88F4-6B5F3F8251BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E16E42B-F2D3-4B0B-88F4-6B5F3F8251BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E16E42B-F2D3-4B0B-88F4-6B5F3F8251BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

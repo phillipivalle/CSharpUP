@@ -7,12 +7,29 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Grid.Background>
-            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="Black" Offset="0"/>
-                <GradientStop Color="White" Offset="1"/>
-            </LinearGradientBrush>
-        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="8*"/>
+        </Grid.ColumnDefinitions>
+
+        <!--<Button x:Name="btnVoltar" Grid.Column="1" Grid.Row="1"/>-->
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center"  Grid.Row="1" Grid.Column="1" Width="600px" Height="250px" >
+            <Button Content="Não aperte" Margin="50,10,50,10"/>
+            <CheckBox Content=""/>
+            <ComboBox Width="120">
+                <Button/>
+                <Button Background="{x:Null}" Content="Aperte Aqui"/>
+                <CheckBox/>
+            </ComboBox>
+
+        </StackPanel>
 
     </Grid>
 </Window>
